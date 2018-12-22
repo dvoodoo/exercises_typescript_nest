@@ -7,7 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    // return "in first";
     return this.appService.getHello();
   }
 
