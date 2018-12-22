@@ -12,7 +12,7 @@ export class AppController {
 
   @Post()
   data(@Body('user') x: any) {
-    console.log('Hier: ',);
+    return x;
   }
 
 
